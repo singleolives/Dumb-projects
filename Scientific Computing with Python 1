@@ -1,5 +1,6 @@
-text = 'Hello Zaira'
-custom_key = 'python'
+#########Learn String Manipulation Building Cipher
+text = 'Hello Brandon'
+custom_key = 'door'
 
 def vigenere(message, key):
     key_index = 0
