@@ -1,1 +1,15 @@
-#####h
+def verify_card_number(card_number):
+    pass  # This function currently does nothing
+
+def main():
+    card_number = '4111-1111-4555-1142'
+    card_translation = str.maketrans({'-': '', ' ': ''})
+    translated_card_number = card_number.translate(card_translation)
+
+    # Call the verify_card_number function with the translated card number
+    verify_card_number(translated_card_number)
+
+    # Print the translated card number
+    print(translated_card_number)
+
+main()
